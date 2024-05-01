@@ -1,0 +1,50 @@
+body {
+    font-family: "Poppins",sans-serif;
+}
+#heading {
+    text-align: center;
+}
+#time {
+    margin-left: 20px;
+}
+button {
+    padding: 15px 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+#startBtn {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    transition: 0.3s;
+}
+#stopBtn {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    transition: 0.3s;
+}
+#resetBtn {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 0.3s;
+}
+#startBtn:hover {
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+}
+#stopBtn:hover {
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+}
+#resetBtn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
